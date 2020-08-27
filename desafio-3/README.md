@@ -32,7 +32,7 @@ Boa sorte!
 </p>
 
 
-## Description
+## Descrição
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
