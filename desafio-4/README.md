@@ -1,44 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desafio 3 - Utilizando React.js
 
-## Available Scripts
+## Informações do desafio
 
-In the project directory, you can run:
+Neste desafio você deverá criar uma aplicação React.js com TypeScript para listar os dados consumidos de uma API Rest.
 
-### `yarn start`
+Crie a aplicação usando o comando: npx create-react-app --typescript nome-do-projeto.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Instale o react-router para criar uma página de listagem de usuários. Esta página deverá ser acessível, acessando o endereço: http://localhost:3000/users.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Esta listagem de usuários buscará os usuários de uma API Rest externa, use o endpoint: https://reqres.in/api/users.
 
-### `yarn test`
+Faça um AJAX usando a biblioteca axios dentro do componente React de listagem de usuários. Liste os usuários em uma tabela, lista ou como desejar. Não use Docker Compose nesta aplicação, deveremos ter apenas um Dockerfile na raiz do projeto expondo a porta 3000 que é a porta que o servidor disponibilizará a aplição React.js. Você pode usar a configuração Docker deste repositório: https://github.com/codeedu/maratona4-esquenta/tree/master/frontend, como exemplo.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Faça o docker build da aplicação para gerar sua imagem, suba-a no Docker Hub e compartilhe o endereço da imagem na página do desafio.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Executando o aplicativo
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ npm start
+```
+Disponível em [http://localhost:3000](http://localhost:3000)
