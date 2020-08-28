@@ -1,4 +1,4 @@
-# Desafio 3 - Utilizando React.js
+# Desafio 4 - Utilizando React.js
 
 ## Informações do desafio
 
