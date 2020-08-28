@@ -1,0 +1,46 @@
+body {
+    background: #1c1c1c;
+    width: 100%;
+    max-width: 1100px;
+
+  margin: 0 auto;
+
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    list-style: none;
+  }
+  
+  .items-grid li {
+    background: #303030;
+    border: 2px solid #303030;
+    height: 180px;
+    border-radius: 8px;
+    padding:  24px 16px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  }
+
+  .items-grid li img {
+    border-radius: 50%;
+  }
+  
+  .items-grid li span {
+    flex: 1;
+    margin-top: 12px;
+  
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
